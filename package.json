@@ -1,0 +1,19 @@
+{
+  "name": "SequelizeAppFood_Thanh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lieuthanh/SequelizeAppFood_Thanh.git",
+  "author": "lieuthanh <155248816+lieuthanh@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3",
+    "sequelize-auto": "^0.8.8"
+  }
+}
